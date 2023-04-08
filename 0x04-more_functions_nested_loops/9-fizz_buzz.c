@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -18,6 +18,7 @@ int main(void)
 			printf("Fizz");
 		}
 		else if (i % 5 == 0 && i % 3 != 0)
+		{
 			printf("Buzz");
 		}
 		else if (i % 3 == 0 && i % 5 == 0)
@@ -33,7 +34,7 @@ int main(void)
 			printf("%d", i);
 		}
 	}
-	printf("\n"
+	printf("\n");
 
 	return (0);
 }
